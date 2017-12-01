@@ -187,6 +187,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.2em;
 	margin-bottom: .4em;
 }
+<<<<<<< HEAD
 h7{
     color: #fff;
 	font-weight: 700;
@@ -194,13 +195,19 @@ h7{
     line-height: 1.2em;
 	margin-bottom: .4em;
 }
+=======
+>>>>>>> b89d41cd58229b851bdf5fd163f78a47b8532c1d
 h1 {font-size: 46px; color: #644370; letter-spacing: -3px;}
 h2 {font-size: 34px;}
 h3 {font-size: 30px;}
 h4 {font-size: 24px; font-weight: 600;}
 h5 {font-size: 22px;}
 h6 {font-family: 'Allerta', sans-serif; font-size: 18px; font-weight: 400;}
+<<<<<<< HEAD
 h7 {font-size: 34px;}
+=======
+
+>>>>>>> b89d41cd58229b851bdf5fd163f78a47b8532c1d
 @media (max-width: 479px), (min-width: 768px) and (max-width: 991px) {
     h1 {font-size: 30px; letter-spacing: -1px;}
     h2 {font-size: 27px;}
@@ -208,7 +215,10 @@ h7 {font-size: 34px;}
     h4 {font-size: 20px;}
     h5 {font-size: 17px;}
     h6 {font-size: 14px;}
+<<<<<<< HEAD
     h7 {font-size: 27px;}
+=======
+>>>>>>> b89d41cd58229b851bdf5fd163f78a47b8532c1d
 }
 
 em {font-style: italic;}
@@ -397,7 +407,10 @@ p.italic {font-style: italic;}
     left: 0;
     z-index: -1;
     height: 42px;
+<<<<<<< HEAD
     opacity: .5;
+=======
+>>>>>>> b89d41cd58229b851bdf5fd163f78a47b8532c1d
 }
 .btn-green .glyphicon {color: #aebc01;}
 .btn-red .glyphicon {color: #cf689d;}
@@ -1425,10 +1438,13 @@ p.italic {font-style: italic;}
 
 .profile-image img {display: block; width: 100%;}
 
+<<<<<<< HEAD
 .widget-profile2 {min-height: 140px; position: relative;}
 .widget-profile2 .tab-pane2 {padding: 0;}
 .widget-profile2.tabs-framed-right2 .tabs li a {padding: 14px 4px 26px; min-height: 110px;}
 .profile-image2 img {display: block; width: 50%;}
+=======
+>>>>>>> b89d41cd58229b851bdf5fd163f78a47b8532c1d
 /*Social Links*/
 .profile-social {
     position: absolute;
@@ -1485,14 +1501,22 @@ p.italic {font-style: italic;}
     margin-bottom: 10px;
     font-size: 18px;
     line-height: 22px;
+<<<<<<< HEAD
     color: #fff;
+=======
+    color: #2ecc71;
+>>>>>>> b89d41cd58229b851bdf5fd163f78a47b8532c1d
     -webkit-transition: all 0.16s ease;
     -moz-transition: all 0.16s ease;
     -ms-transition: all 0.16s ease;
     transition: all 0.16s ease;
 }
 .profile-links .icon-small-prev, .profile-links .icon-small-next {font-size: 22px;}
+<<<<<<< HEAD
 .profile-links a:hover [class*="icon-small-"] {color: #141000;}
+=======
+.profile-links a:hover [class*="icon-small-"] {color: #16a085;}
+>>>>>>> b89d41cd58229b851bdf5fd163f78a47b8532c1d
 
 /*Green Links*/
 .profile-links.green {background: #44AD07;}
@@ -1708,6 +1732,7 @@ p.italic {font-style: italic;}
 .widget-top3chart .chart-like:hover i {
     font-size: 14px;
     color: #44AD07;
+<<<<<<< HEAD
 }
 
 /*Thiên bổ sung
@@ -1763,4 +1788,6 @@ p.italic {font-style: italic;}
     .column {
         width: 100%;
     }
+=======
+>>>>>>> b89d41cd58229b851bdf5fd163f78a47b8532c1d
 }

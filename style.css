@@ -187,13 +187,20 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.2em;
 	margin-bottom: .4em;
 }
+h7{
+    color: #fff;
+	font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 1.2em;
+	margin-bottom: .4em;
+}
 h1 {font-size: 46px; color: #644370; letter-spacing: -3px;}
 h2 {font-size: 34px;}
 h3 {font-size: 30px;}
 h4 {font-size: 24px; font-weight: 600;}
 h5 {font-size: 22px;}
 h6 {font-family: 'Allerta', sans-serif; font-size: 18px; font-weight: 400;}
-
+h7 {font-size: 34px;}
 @media (max-width: 479px), (min-width: 768px) and (max-width: 991px) {
     h1 {font-size: 30px; letter-spacing: -1px;}
     h2 {font-size: 27px;}
@@ -201,6 +208,7 @@ h6 {font-family: 'Allerta', sans-serif; font-size: 18px; font-weight: 400;}
     h4 {font-size: 20px;}
     h5 {font-size: 17px;}
     h6 {font-size: 14px;}
+    h7 {font-size: 27px;}
 }
 
 em {font-style: italic;}
@@ -389,6 +397,7 @@ p.italic {font-style: italic;}
     left: 0;
     z-index: -1;
     height: 42px;
+    opacity: .5;
 }
 .btn-green .glyphicon {color: #aebc01;}
 .btn-red .glyphicon {color: #cf689d;}
@@ -1416,6 +1425,10 @@ p.italic {font-style: italic;}
 
 .profile-image img {display: block; width: 100%;}
 
+.widget-profile2 {min-height: 140px; position: relative;}
+.widget-profile2 .tab-pane2 {padding: 0;}
+.widget-profile2.tabs-framed-right2 .tabs li a {padding: 14px 4px 26px; min-height: 110px;}
+.profile-image2 img {display: block; width: 50%;}
 /*Social Links*/
 .profile-social {
     position: absolute;
@@ -1472,14 +1485,14 @@ p.italic {font-style: italic;}
     margin-bottom: 10px;
     font-size: 18px;
     line-height: 22px;
-    color: #2ecc71;
+    color: #fff;
     -webkit-transition: all 0.16s ease;
     -moz-transition: all 0.16s ease;
     -ms-transition: all 0.16s ease;
     transition: all 0.16s ease;
 }
 .profile-links .icon-small-prev, .profile-links .icon-small-next {font-size: 22px;}
-.profile-links a:hover [class*="icon-small-"] {color: #16a085;}
+.profile-links a:hover [class*="icon-small-"] {color: #141000;}
 
 /*Green Links*/
 .profile-links.green {background: #44AD07;}
@@ -1695,4 +1708,59 @@ p.italic {font-style: italic;}
 .widget-top3chart .chart-like:hover i {
     font-size: 14px;
     color: #44AD07;
+}
+
+/*Thiên bổ sung
+-Profile
+*/
+* {
+    box-sizing: border-box;
+}
+
+
+.mainblog {
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+.rowblog {
+     padding: 20px;
+     
+    margin: 8px -16px;
+}
+
+.rowblog,
+.rowblog > .columnblog {
+    padding: 16px;
+}
+
+.columnblog {
+    float: left;
+    width: 25%;
+}
+
+.rowblog:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.contentblog {
+   background-color: rgba(0,0, 0, 0.9);
+    opacity: 1;
+    filter: none;
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
 }

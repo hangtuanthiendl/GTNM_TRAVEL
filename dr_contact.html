@@ -1,0 +1,129 @@
+<!doctype html>
+<head>
+<meta charset="utf-8">
+<meta name="author" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DALAT RUN | TRANG THÔNG TIN ĐÀ LẠT </title>
+
+<!-- main JS libs  -->
+<script src="js/libs/jquery-1.11.0.min.js"></script>
+<script src="js/libs/jquery-ui.min.js"></script>
+<script src="js/libs/bootstrap.min.js"></script>
+
+<!-- Style CSS -->
+<link href="css/bootstrap.css" media="screen" rel="stylesheet">
+<link href="style.css" media="screen" rel="stylesheet">
+<link href="css/about.css" media="screen" rel="stylesheet">    
+
+<!-- Responsive Menu -->
+<link rel="stylesheet" href="css/slicknav.css">
+<script src="js/jquery.slicknav.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.menu').slicknav();
+    });
+</script>
+
+<link rel="stylesheet" type="text/css" href="css/set1.css" />
+
+<body>
+<div class="body-wrap">
+    <!-- container-->
+    <div class="container">
+    <!--          MENU     -->    
+      <div class="row">
+                <div class="col-sm-12">
+                    <!-- Website Menu -->
+                    <ul class="menu boxed clearfix bg-image-home">
+                        <li><a href="home.html"><i class="menu-icon menu-icon-1"></i>TRANG CHỦ</a></li>
+                        <li><a href="dr_blog.html"><i class="menu-icon menu-icon-2"></i>BLOG</a></li>
+                        <li><a href="dr_product.html"><i class="menu-icon menu-icon-3"></i>DỊCH VỤ</a></li>
+                        <li><a href="dr_adventure.html"><i class="menu-icon menu-icon-7"></i>KHÁM PHÁ</a></li>
+                        <li><a href="trangmat.html"><i class="menu-icon menu-icon-4"></i>TRĂNG MẬT</a></li>
+                        <li><a href="adventure/index.html"><i class="menu-icon menu-icon-5"></i>MẠO HIỂM</a></li>
+                        <li><a href="dr_contact.html"><i class="menu-icon menu-icon-8"></i>LIÊN HỆ</a></li>
+                        <li><a href="dr_about.html"><i class="menu-icon menu-icon-6"></i>TÀI KHOẢN</a></li>
+                    </ul>
+                </div>
+             </div>
+    <!--          MENU KẾT THÚC    -->  
+
+    <div class="col-sm-6"> 
+    <div id="acontent">
+    <h1>Liên hệ</h1>
+    <form action=" " method="post" autocomplete="on">
+        <p>
+            <label for="username" class="icon-user"> Họ và tên
+                <span class="required">*</span>
+            </label>
+            <input type="text" name="username" id="username" required="required" placeholder="Tên của bạn" />
+        </p>
+
+        <p>
+            <label for="usermail" class="icon-envelope"> Địa chỉ email
+                <span class="required">*</span>
+            </label>
+            <input type="email" name="usermail" id="usermail" placeholder="Địa chỉ email" required="required" />
+        </p>
+
+        <p>
+            <label for="usersite" class="icon-link">Điện thoại</label>
+            <input type="url" name="usersite" id="usersite" placeholder="0123456789" />
+        </p>
+
+        <p>
+            <label for="subject" class="icon-bullhorn"> Tiêu đề</label>
+            <input type="text" name="subject" id="subject" placeholder="Bạn muốn chúng tôi hỗ trợ gì?" />
+        </p>
+
+        <p>
+            <label for="message" class="icon-comment"> Nội dung
+                <span class="required">*</span>
+            </label>
+            <textarea placeholder="Nội dung bạn muốn chúng tôi hỗ trợ?" required="required"></textarea>
+        </p>
+        
+        <p class="indication">Trường có dấu
+            <span class="required"> * </span>là bắt buộc</p>
+        <input type="submit" value="    Gửi tin nhắn    " />
+
+    </form>
+    </div>
+    </div>
+     
+     <div class="col-sm-6"> 
+       <div id="map" style="width:auto;height:220px; margin: 10px 0  0px 0;"></div>
+        <script>
+         function initMap() {
+         var uluru = {lat: 11.939132, lng: 108.444669};
+            var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 10,
+          center: uluru
+            });
+            var marker = new google.maps.Marker({
+             position: uluru,
+             map: map
+            });
+            }
+        </script>
+         <script async defer
+         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAPXRRGa7bWM2kwhYO5snhIxyva18EOnV8&callback=initMap">
+        </script>
+        
+        <!--CHU THICH CHO SLIDER -->
+         <div class="grid">
+					<figure class="effect-ruby">
+						<img src="./images/12.jpg"/>
+						<figcaption>
+							<h7>GIẢI THƯỞNG <span>SAO VÀNG DU LỊCH VIỆT</span></h7>
+							<p>Xem thêm</p>
+							<a href="#">Xem thêm</a>
+						</figcaption>			
+					</figure>
+					
+		</div>
+     </div>
+</body>
+            
+</html>

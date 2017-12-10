@@ -33,7 +33,7 @@
     font-weight: normal;
     font-style: normal;
     font-size: 20px;
-    color: rgb(212, 37, 160);
+    color: #fff;
     text-indent: 0;
     position: absolute;
     top: 0;
@@ -226,7 +226,7 @@
 .cp-container .jp-current-time {
     font-size: 22px;
     font-weight: 600;
-    color: rgb(212, 37, 160);
+    color: #fff;
     text-align: center;
     text-shadow: 0 1px 1px rgba(0,0,0,0.2);
 }
@@ -237,14 +237,14 @@
     font-family: "Montserrat", sans-serif;
     font-size: 12px;
     font-weight: 700;
-    color: #8a0868;
+    color: #da74b7;
     text-transform: uppercase;
     margin-bottom: 24px;
 }
 .cp-container .song-title .item-song {
     font-size: 18px;
     font-weight: 700;
-    color: rgb(212, 37, 160);
+    color: #fff;
     text-transform: none;
     letter-spacing: 0;
     text-shadow: 0 1px 1px rgba(0,0,0,0.2);

@@ -1,8 +1,23 @@
+<<<<<<< HEAD
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block;
 }
 ah1 {
+=======
+/* generic */
+ body {
+    color: #3F3F3F;
+    font-family:'Droid Sans', Tahoma, Arial, Verdana sans-serif;
+    font-size:16px;
+    background:#3F3F3F;
+     background: url(../images/bg9.png) center top repeat;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+h1 {
+>>>>>>> 96ee64f7c7908d3e65ef9bcf7db9dd2ab14a2576
     font-family:'Questrial', Verdana, sans-serif;
     text-align:center;
     font-size:40px;
@@ -12,10 +27,17 @@ ah1 {
     color:#8C8C8C;
 }
 /** have a nice ampersand **/
+<<<<<<< HEAD
 ah1:after {
     font-size:25px;
     color:#D6CFCB;
     
+=======
+ h1:after {
+    font-size:25px;
+    color:#D6CFCB;
+    content:'&';
+>>>>>>> 96ee64f7c7908d3e65ef9bcf7db9dd2ab14a2576
     text-align:center;
     display:block;
     width:100%;
@@ -23,7 +45,11 @@ ah1:after {
     text-shadow: 0px 1px 0px #fff;
 }
 /** create the gradient bottom **/
+<<<<<<< HEAD
 ah1:before {
+=======
+ h1:before {
+>>>>>>> 96ee64f7c7908d3e65ef9bcf7db9dd2ab14a2576
     position:absolute;
     bottom:15px;
     content:' ';
@@ -45,10 +71,17 @@ ah1:before {
     /* W3C */
 }
 /* Here comes to good stuff : content styling */
+<<<<<<< HEAD
  #acontent {
     position:relative;
     margin:0px auto;
     width:auto;
+=======
+ #content {
+    position:relative;
+    margin:50px auto;
+    width:400px;
+>>>>>>> 96ee64f7c7908d3e65ef9bcf7db9dd2ab14a2576
     min-height:200px;
     z-index:100;
     padding:30px;
@@ -74,7 +107,11 @@ ah1:before {
     box-shadow:0px 1px 6px #3F3F3F;
 }
 /** my "fake" background that will hover the stripes **/
+<<<<<<< HEAD
  #acontent:after {
+=======
+ #content:after {
+>>>>>>> 96ee64f7c7908d3e65ef9bcf7db9dd2ab14a2576
     background:#F9F9F9;
     margin:10px;
     position: absolute;
@@ -139,7 +176,11 @@ input:-moz-placeholder, textarea:-moz-placeholder {
     color:#BABABA;
     font-style:italic;
 }
+<<<<<<< HEAD
 atextarea {
+=======
+textarea {
+>>>>>>> 96ee64f7c7908d3e65ef9bcf7db9dd2ab14a2576
     min-height:100px;
     resize:vertical
 }
@@ -165,16 +206,27 @@ atextarea {
 .iconic.mail-alt:before {
     content:"M";
 }
+<<<<<<< HEAD
 alabel {
+=======
+label {
+>>>>>>> 96ee64f7c7908d3e65ef9bcf7db9dd2ab14a2576
     color:#7F7E7E;
     -webkit-transition: color 1s ease;
     -moz-transition: color 1s ease;
     transition: color 1s ease;
 }
+<<<<<<< HEAD
 alabel:hover {
     color:#191919;
 }
 alabel:before {
+=======
+label:hover {
+    color:#191919;
+}
+label:before {
+>>>>>>> 96ee64f7c7908d3e65ef9bcf7db9dd2ab14a2576
     color:#C1BFBD;
     -webkit-transition: color 1s ease;
     -moz-transition: color 1s ease;
@@ -200,7 +252,11 @@ p {
     color:#E5224C;
 }
 /** Styling the send button **/
+<<<<<<< HEAD
 input[type=submit] {
+=======
+ input[type=submit] {
+>>>>>>> 96ee64f7c7908d3e65ef9bcf7db9dd2ab14a2576
     margin-left:235px;
     cursor:pointer;
     background:none;
